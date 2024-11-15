@@ -6,24 +6,29 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="images/my-logo.png" />
-    <script src="https://kit.fontawesome.com/a9da22d09f.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/a9da22d09f.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- main section html starts here -->
     <header id="home" class="pointer">
       <!-- nav bar starts here -->
       <nav class="header-part-1">
+        <!-- html of left contents of nav bar -->
         <div class="left">
-          <img src="images/my-img.webp" alt="My Image" />
+          <img src="images/my-img.webp" alt="my image" />
           <p class="pointer">Portfolio</p>
         </div>
+        <!-- html of right contents of nav bar -->
         <div class="right">
-          <a href="#home" class="nav-left-contents pointer">Home</a>
-          <a href="#about" class="nav-left-contents pointer">About Me</a>
-          <a href="#qualifications" class="nav-left-contents pointer">Qualifications</a>
-          <a href="#projects" class="nav-left-contents pointer">Projects</a>
-          <a href="#contact" class="nav-left-contents pointer">Contact</a>
-          <a href="#socials" class="nav-left-contents pointer">Socials</a>
+          <a href="#home" class="nav-left-contents pointer">home</a>
+          <a href="#about" class="nav-left-contents pointer">about me</a>
+          <a href="#qualifications" class="nav-left-contents pointer">qualifications</a>
+          <a href="#projects" class="nav-left-contents pointer">projects</a>
+          <a href="#contact" class="nav-left-contents pointer">contact</a>
+          <a href="#socials" class="nav-left-contents pointer">socials</a>
         </div>
         <div class="theme">
           <button id="theme-toggle">
@@ -34,15 +39,15 @@
       <!-- nav bar ends here -->
       <!-- hero section html starts here -->
       <div class="header-part-2">
-        <img src="images/header-img.png" alt="Hero Image" />
+        <img src="images/header-img.png" alt="" />
         <div class="header-flex-main">
           <div class="header-flex-1">
-            <h3 class="header-h3">Hello Everyone</h3>
-            <h1 class="heading">I am Hritik Sharma</h1>
-            <h4>Web Developer</h4>
+            <h3 class="header-h3">Hello everyone</h3>
+            <h1 class="heading">i am hritik sharma</h1>
+            <h4>web developer</h4>
           </div>
           <div class="header-flex-2">
-            <button>Resume</button>
+            <button>resume</button>
           </div>
         </div>
       </div>
@@ -52,11 +57,24 @@
     <hr />
     <!-- about section html starts here -->
     <section id="about" class="about-section">
-      <h2>About Me!</h2>
+      <h2>about me !</h2>
       <div class="flex-f about-p">
-        <img src="images/about-img.webp" alt="About Image" class="pointer" />
+        <!-- my image here -->
+        <img src="images/about-img.webp" alt="my image" class="pointer" />
+        <!-- about me  -->
         <p class="about">
-          Hello! I'm Hritik Sharma, a passionate programmer and project enthusiast...
+          Hello! I'm Hritik Sharma, a passionate programmer and project
+          enthusiast with a strong focus on creating innovative and efficient
+          solutions. With hands-on experience in web development, including
+          HTML, CSS, JavaScript, and various programming languages, I
+          continuously explore new technologies to stay ahead in the tech world.
+          My journey so far has been fueled by curiosity and a love for
+          problem-solving, and I thrive on challenges that push my knowledge and
+          skills to the next level—whether through building engaging websites,
+          working on creative projects, or collaborating with others. Currently,
+          I’m a LetsUpgrade Student Ambassador and an intern at Hex Solutions,
+          applying my skills in real-world scenarios and growing within a
+          dynamic, supportive environment.
         </p>
       </div>
     </section>
@@ -64,10 +82,90 @@
     <hr />
     <!-- qualifications section html starts here -->
     <section id="qualifications" class="qual-section">
-      <h2>My Qualifications</h2>
+      <h2>my qualifications</h2>
       <div class="main-qual-section">
         <div class="qual-card-section">
-          <!-- Cards for different qualifications -->
+          <div class="card card-1 pointer">
+            <div class="card-part-1">
+              <i class="fa-solid fa-school"></i>
+              <h3>class: 10th</h3>
+            </div>
+            <div class="card-part-2">
+              <p>Completed my 10th from New India Sr Sec School, Pinjore.</p>
+              <button class="pointer">view result</button>
+            </div>
+          </div>
+          <div class="card card-2 pointer">
+            <div class="card-part-1">
+              <i class="fa-solid fa-school"></i>
+              <h3>class: 12th</h3>
+            </div>
+            <div class="card-part-2">
+              <p>
+                Completed my 12th from Aadarsh Gyandeep Inter College, Aligarh.
+              </p>
+              <button class="pointer">view result</button>
+            </div>
+          </div>
+          <div class="card card-3 pointer">
+            <div class="card-part-1">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>course: b.tech</h3>
+            </div>
+            <div class="card-part-2">
+              <p>
+                Currently pursuing at Vision Institute Of Technology, Aligarh.
+              </p>
+              <button class="pointer">view result</button>
+            </div>
+          </div>
+        </div>
+        <div class="prog-lang-div">
+          <div class="lang lang-1">
+            <div class="lang-part-1">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="lang-part-2">
+              <p>HTML</p>
+              <progress value="90" max="100"></progress>
+            </div>
+          </div>
+          <div class="lang lang-2">
+            <div class="lang-part-1">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="lang-part-2">
+              <p>CSS</p>
+              <progress value="90" max="100"></progress>
+            </div>
+          </div>
+          <div class="lang lang-3">
+            <div class="lang-part-1">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="lang-part-2">
+              <p>Javascript</p>
+              <progress value="60" max="100"></progress>
+            </div>
+          </div>
+          <div class="lang lang-4">
+            <div class="lang-part-1">
+              <i class="fa-brands fa-python"></i>
+            </div>
+            <div class="lang-part-2">
+              <p>Python</p>
+              <progress value="50" max="100"></progress>
+            </div>
+          </div>
+          <div class="lang lang-5">
+            <div class="lang-part-1">
+              <i class="fa-brands fa-bootstrap"></i>
+            </div>
+            <div class="lang-part-2">
+              <p>Bootstrap</p>
+              <progress value="30" max="100"></progress>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -75,66 +173,262 @@
     <hr />
     <!-- project section html starts here -->
     <section class="project-section" id="projects">
-      <h2>Projects</h2>
+      <h2>projects</h2>
       <div class="project-flex-main-div">
         <div class="project-card-flex">
-          <!-- project: FD Calculator -->
+          <!-- project : fd calculator -->
           <div class="project-card pointer">
-            <img src="images/project-img-1.png" alt="FD Calculator Image" />
-            <h5>FD Calculator</h5>
-            <p>Accurate and good UI FD calculator with HTML, CSS, JavaScript.</p>
-            <a href="https://github.com/hritik2004-cse/FD-Calculator" target="_blank" class="pointer">
-              <button class="pointer">
-                <i class="fa-brands fa-github"></i> GitHub Link
-              </button>
-            </a>
+            <img src="images/project-img-1.png" alt="fd calculator" />
+            <h5>fD calculator</h5>
+            <p>Accurate and good UI FD calculator with HTML,CSS,Javascript.</p>
+            <a
+              href="https://github.com/hritik2004-cse/FD-Calculator"
+              target="_blank"
+              class="pointer"
+              ><button class="pointer">
+                <i class="fa-brands fa-github"></i>github link
+              </button></a
+            >
           </div>
-          <!-- other projects -->
+          <!-- project : random color generator -->
+          <div class="project-card pointer">
+            <img src="images/project-img-2.png" alt="fd calculator" />
+            <div class="project-card-subdiv">
+              <h5>random color generator</h5>
+              <p>Generates 50 random colors with HTML,CSS,Javascript.</p>
+              <a
+                href="https://github.com/hritik2004-cse/Random-Color-Generator"
+                target="_blank"
+                class="pointer"
+              >
+                <button class="pointer">
+                  <i class="fa-brands fa-github"></i>github link
+                </button></a
+              >
+            </div>
+          </div>
+          <!-- project : tic tac toe game  -->
+          <div class="project-card pointer">
+            <img src="images/project-img-3.png" alt="fd calculator" />
+            <h5>tic-tac-toe game</h5>
+            <p>
+              enjoy the never ending game of tic-tac-toe win and a cute cat 😺
+              chearing for you
+            </p>
+            <a
+              href="https://github.com/hritik2004-cse/Tic-tac-toe-game"
+              target="_blank"
+              class="pointer"
+              ><button class="pointer">
+                <i class="fa-brands fa-github"></i>github link
+              </button></a
+            >
+          </div>
+        </div>
+        <!-- project : netflix clone -->
+        <div class="project-card-flex">
+          <div class="project-card pointer">
+            <img src="images/project-img-4.png" alt="fd calculator" />
+            <h5>netflix clone</h5>
+            <p>Accurate landing page of netflix with HTML,CSS,Javascript.</p>
+            <a
+              href="https://github.com/hritik2004-cse/netflix-clone"
+              target="_blank"
+              class="pointer"
+              ><button class="pointer">
+                <i class="fa-brands fa-github"></i>github link
+              </button></a
+            >
+          </div>
+          <!-- project : weather app -->
+          <div class="project-card pointer center">
+            <img src="images/project-img-5.png" alt="fd calculator" />
+            <h5>weather app</h5>
+            <p>Accurate and good UI weather app with HTML,CSS,Javascript.</p>
+            <a
+              href="https://github.com/hritik2004-cse/PRODIGY_WD_05"
+              target="_blank"
+              class="pointer"
+              ><button class="pointer">
+                <i class="fa-brands fa-github"></i>github link
+              </button></a
+            >
+          </div>
+          <!-- project : landing page -->
+          <div class="project-card pointer">
+            <img src="images/project-img-6.png" alt="fd calculator" />
+            <h5>landing page</h5>
+            <p>Traveling site landing page with HTML,CSS,Javascript.</p>
+            <a
+              href="https://github.com/hritik2004-cse/PRODIGY_WD_01"
+              target="_blank"
+              class="pointer"
+              ><button class="pointer">
+                <i class="fa-brands fa-github"></i>github link
+              </button></a
+            >
+          </div>
         </div>
       </div>
     </section>
-    <!-- projects section html ends here -->
     <hr />
     <section id="contact" class="contact-section">
-      <h2>Contact</h2>
+      <h2>contact</h2>
       <div class="main-contact-div">
         <div class="contact-div-1">
-          <!-- Google Maps -->
-          <iframe src="https://www.google.com/maps/embed..." width="600" height="450" style="border: 1vh solid var(--text-col); border-radius: 3vh" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!-- embedded google maps -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13724.435372361966!2d76.79709605!3d30.68721355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fec9712f3a78f%3A0xc1efb26352752b07!2sHallo%20Majra%2C%20Chandigarh!5e0!3m2!1sen!2sin!4v1731387914676!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 1vh solid var(--text-col); border-radius: 3vh"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
+        <!-- contact form starts here-->
         <div class="contact-div-2">
           <form id="myform">
-            <label for="name">Name:</label><br />
-            <input type="text" id="inputField" placeholder="Enter your name" name="name" required /><br />
+            <label for="name">name :</label>
+            <br />
+            <input
+              type="text"
+              id="inputField"
+              placeholder="enter you name"
+              name="name"
+              required
+            />
+            <br />
             <div class="errorMessage" id="errorMessage">Invalid Input</div>
-            <label for="email">Email Address:</label><br />
-            <input type="email" id="inputFieldEmail" placeholder="Enter your email address" name="email" required /><br />
+            <label for="email">email address :</label>
+            <br />
+            <input
+              type="email"
+              id="inputField"
+              placeholder="enter you email address"
+              name="email"
+              required
+            />
+            <br />
             <div class="errorMessage" id="errorMessage">Invalid Input</div>
-            <textarea name="message" id="message" placeholder="Message up to 30-40 words"></textarea><br />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="message upto 30 to 40 words"
+            ></textarea>
+            <br />
             <div class="center">
-              <button type="button" onclick="validateInput()">Submit</button>
+              <button onclick="validateInput()">Submit</button>
             </div>
           </form>
         </div>
+        <!-- contact form ends here -->
       </div>
     </section>
-    <hr />
+    <hr>
     <section id="socials">
-      <h2>Socials</h2>
+      <h2>socials</h2>
       <div class="social-flex-main">
-        <!-- Social media links (youtube, instagram, etc.) -->
+        <div class="social-flex-part-1">
+          <!-- my youtube video -->
+          <iframe
+            width="500"
+            height="300"
+            src="https://www.youtube.com/embed/cMZ_TGgJYzc?si=YbFttBkjEZrd4Odt"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <!-- my youtube video -->
+          <iframe
+            width="500"
+            height="300"
+            src="https://www.youtube.com/embed/SwR7FLSUDjk?si=ERVdrkknA7e31_Si"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="social-flex-part-2">
+          <div class="social-tags">
+            <!-- youtube link -->
+            <div class="social-tag">
+              <a
+                href="https://www.youtube.com/@hritik_is_coding"
+                target="_blank"
+                title="youtube"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+            <!-- instagram link -->
+            <div class="social-tag">
+              <a
+                href="https://www.instagram.com/hritik_sharma_2004"
+                target="_blank"
+                title="instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <!-- email link -->
+            <div class="social-tag">
+              <a
+                href="mailto:hritiksharma08725@gmail.com"
+                target="_blank"
+                title="Email"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+            <!-- facebook link -->
+            <div class="social-tag">
+              <a
+                href="https://www.facebook.com/profile.php?id=100031941365349"
+                target="_blank"
+                title="facebook"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+            <!-- twitter link -->
+            <div class="social-tag">
+              <a href="https://x.com/Hritik_says" target="_blank" title="twitter"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </div>
+            <!-- github link -->
+            <div class="social-tag">
+              <a href="https://github.com/hritik2004-cse" target="_blank" title="github"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <div class="social-tag">
+              <a href="https://x.com/Hritik_says"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </div>
+
+            <a href="https://x.com/Hritik_says"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </section>
-    <hr />
+    <hr>
     <footer>
-      <h6>Navigation Links:</h6>
-      <a href="#home" class="footer-a">Home</a>
-      <a href="#about" class="footer-a">About</a>
-      <a href="#qualifications" class="footer-a">Qualifications</a>
-      <a href="#projects" class="footer-a">Projects</a>
-      <a href="#contact" class="footer-a">Contact</a>
-      <a href="#socials" class="footer-a">Socials</a>
-      <p>&copy; Made by Hritik Sharma</p>
+      <h6>navigation links :</h6>
+      <a href="#top" class="footer-a">home</a>
+      <a href="#about" class="footer-a">about</a>
+      <a href="#qualifications" class="footer-a">qualifications</a>
+      <a href="#projects" class="footer-a">projects</a>
+      <a href="#contact" class="footer-a">contact</a>
+      <a href="#socials" class="footer-a">socials</a>
+      <p>&copy made by hritik sharma</p>
     </footer>
     <script src="script.js"></script>
   </body>
