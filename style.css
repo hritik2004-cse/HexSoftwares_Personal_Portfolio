@@ -167,6 +167,7 @@ span.fade{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 h1{
     font-size: 10vh;
